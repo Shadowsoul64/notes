@@ -6,6 +6,11 @@
 
 def main():
 
+    # The first thing we need to do is get a gui going!
+    # So i have to learn Tkninter but luckily that is already in python so i dont need to install it
+    # Also I will write out some "Code" that is a genral list of steps i need to do
+
+
 
 
 
