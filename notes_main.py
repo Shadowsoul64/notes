@@ -13,7 +13,7 @@ def main():
     root = Tk()
     frm = ttk.Frame(root, padding=10)
     frm.grid()
-    ttk.Label(frm, text="Hello World!").grid(column=200, row=200)
+    ttk.Label(frm, text="Hello, Enjoy your journal app!").grid(column=200, row=200)
     ttk.Button(frm, text="Quit", command=root.destroy).grid(column=6, row=2)
     root.mainloop()
 
