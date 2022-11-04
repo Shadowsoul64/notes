@@ -3,12 +3,19 @@
 # This project will be used to create a simple text/ journal app
 # As well as test out and get a better understanding of GitHub and version control!
 # Without further adieu, lets begin!
+from tkinter import *
+from tkinter import ttk
 
 def main():
 
-    # The first thing we need to do is get a gui going!
-    # So i have to learn Tkninter but luckily that is already in python so i dont need to install it
-    # Also I will write out some "Code" that is a genral list of steps i need to do
+    # In the frst part of my code I am making a gui window.
+
+    root = Tk()
+    frm = ttk.Frame(root, padding=10)
+    frm.grid()
+    ttk.Label(frm, text="Hello World!").grid(column=200, row=200)
+    ttk.Button(frm, text="Quit", command=root.destroy).grid(column=6, row=2)
+    root.mainloop()
 
 
 
